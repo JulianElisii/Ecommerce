@@ -22,7 +22,7 @@ const Item = styled(({ theme }) => ({
 export default function Cart() {
     const classes = Item();
 
-    const { basketList } = useSelector(state => state.basket);
+    const { basketList } = useSelector(state => state.basket); // Aqui asigno lo que quiero que se imprima en el front en este caso el estado del basket
    
 
 

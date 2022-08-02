@@ -9,7 +9,7 @@ export const productSlice = createSlice({
   },
   reducers: {
     setProductList: (state, action) => {
-      state.list = action.payload;//action.payload es la accion de fetchAllUsers
+      state.list = action.payload;//action.payload es la accion de getProduct
     }
   },
 });
